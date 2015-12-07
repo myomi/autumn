@@ -1,0 +1,18 @@
+{
+  "name": "autumn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist/js --source-maps",
+    "watch": "babel src --watch --out-dir dist/js --source-maps",
+    "start": "node dist/js/ server/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.3",
+    "mithril": "^0.2.0"
+  }
+}
